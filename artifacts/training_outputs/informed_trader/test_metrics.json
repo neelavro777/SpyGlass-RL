@@ -1,0 +1,10 @@
+{
+  "total_reward": 1.8145275268554104,
+  "total_profit": 0.7934542406182217,
+  "return_pct": -20.65457593817783,
+  "trade_count": 36,
+  "step_count": 185,
+  "sharpe": 2.1935447454185866,
+  "max_drawdown": -0.02622244375332472,
+  "buy_hold_return_pct": 13.94887018253186
+}

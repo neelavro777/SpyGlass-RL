@@ -1,0 +1,14 @@
+artifact_uri: file:///home/nafis/Desktop/Code/SpyGlass-RL/mlruns/644007069443807174/a10d83383d814f70be48e3d0aa543c6c/artifacts
+end_time: 1782458021278
+entry_point_name: ''
+experiment_id: '644007069443807174'
+lifecycle_stage: active
+run_id: a10d83383d814f70be48e3d0aa543c6c
+run_name: informed-trader-main
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1782457998091
+status: 3
+tags: []
+user_id: nafis

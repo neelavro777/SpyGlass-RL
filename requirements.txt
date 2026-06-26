@@ -1,0 +1,9 @@
+gym-anytrading==2.0.0
+gymnasium==1.3.0
+stable-baselines3==2.9.0
+pandas==2.3.3
+plotly==6.8.0
+numpy==2.4.6
+streamlit>=1.44.0
+mlflow==3.14.0
+pyyaml==6.0.3

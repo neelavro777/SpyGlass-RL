@@ -1,0 +1,9 @@
+artifact_location: file:///home/nafis/Desktop/Code/SpyGlass-RL/mlruns/644007069443807174
+creation_time: 1782457997905
+effective_trace_archival_retention: null
+experiment_id: '644007069443807174'
+last_update_time: 1782457997905
+lifecycle_stage: active
+name: spyglass-ppo
+trace_location: null
+workspace: default
