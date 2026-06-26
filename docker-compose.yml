@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  spyglass-rl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: spyglass-rl
+    ports:
+      - "8501:8501"
+    volumes:
+      # Mount data and models so changes are reflected without rebuild
+      - ./data:/app/data
+      - ./notebooks/models:/app/notebooks/models
+    restart: unless-stopped
+    environment:
+      - STREAMLIT_SERVER_MAX_UPLOAD_SIZE=100

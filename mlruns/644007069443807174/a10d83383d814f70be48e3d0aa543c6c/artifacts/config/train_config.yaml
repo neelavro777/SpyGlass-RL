@@ -1,0 +1,36 @@
+data:
+  path: data/raw/SPY_2020_2025_daily.csv
+  train_ratio: 0.70
+  val_ratio: 0.15
+
+environment:
+  window_size: 15
+  trade_cost: 0.001
+
+model:
+  algorithm: PPO
+  policy: MlpPolicy
+  learning_rate: 0.0003
+  n_steps: 2048
+  batch_size: 64
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.0
+
+training:
+  total_timesteps: 25000
+  eval_freq: 2000
+  seed: 42
+  device: cpu
+  verbose: 0
+
+paths:
+  model_dir: models/informed_trader
+  log_dir: artifacts/training_logs/informed_trader
+  artifact_dir: artifacts/training_outputs/informed_trader
+
+mlflow:
+  tracking_dir: mlruns
+  experiment_name: spyglass-ppo
+  run_name: informed-trader-main
